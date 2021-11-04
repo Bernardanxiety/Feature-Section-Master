@@ -54,7 +54,7 @@ body {
 
 
 header {
-    padding: 8.2rem 0 7.8rem;
+    padding: 8.8rem 0 7.6rem;
     text-align: center;
 }
 
@@ -70,12 +70,12 @@ header h1 {
 
 header h2 {
     font-size: 2.rem;
-    --top: 0.1rem;
+    --top: .6em;
 }
 
 header .description {
     text-align: center;
-    --top: 1.05em;
+    --top: 1.5em;
     line-height: 1.66;
 }
 
@@ -84,7 +84,7 @@ header .description {
 }
 
 .grid_card {
-    padding: 2.6rem 2.8rem 2.8rem;
+    padding: 3.1rem 2.8rem 2.8rem;
     background-color: #fff;
     border-radius: 7px;
     position: relative;
@@ -111,7 +111,7 @@ header .description {
 }
 
 .grid .description {
-    --top: .15em;
+    --top: .6em;
 
     font-size: 1.3rem;
 
@@ -119,8 +119,9 @@ header .description {
 }
 
 .grid_card img {
+
     margin-left: auto;
-    margin-top: var(--img, 3.2rem);
+    margin-top: var(--img, 3.1rem);
     width: 57px;
 }
 
@@ -129,6 +130,7 @@ header .description {
 }
 
 .teamBuilder {
+    --img: 3.1rem;
     --card-top: var(--clr1);
 }
 
@@ -137,7 +139,7 @@ header .description {
 }
 
 .calculator {
-    --img: 3.3rem;
+    --img: 3.2rem;
     --card-top: var(--clr4);
 }
 
